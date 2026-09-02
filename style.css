@@ -296,3 +296,196 @@ footer .fL h6 {
     border-radius: 12px;
 }
 
+
+@media (max-width: 900px) {
+    .container {
+        width: 70%;
+    }
+
+    .imgB img {
+        width: 11em;
+        height: 15em;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        gap: 45px;
+    }
+
+    .UbmH {
+        padding-top: 2em;
+    }
+
+    .tp h6 {
+        font-size: 2.2em;
+    }
+
+    .imgB {
+        padding: 2em 0;
+    }
+
+    .imgB img {
+        width: 10em;
+        height: 14em;
+    }
+
+    .sec {
+        gap: 20px;
+    }
+
+    footer {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        gap: 40px;
+    }
+
+    .nav {
+        gap: 5px;
+    }
+
+    .nb {
+        gap: 2px;
+    }
+
+    .nav a {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+
+    .nav img,
+    .nav button {
+        width: 38px;
+        height: 38px;
+    }
+
+    .UbmH {
+        padding-top: 1.5em;
+    }
+
+    .tp h6 {
+        font-size: 2em;
+    }
+
+    .tp p {
+        font-size: 14px;
+    }
+
+    .imgB {
+        min-height: 230px;
+        padding: 1.5em 0;
+    }
+
+    .imgB img {
+        width: 7.5em;
+        height: 10.5em;
+    }
+
+    .imgB img:nth-child(1) {
+        margin-right: -18px;
+    }
+
+    .imgB img:nth-child(3) {
+        margin-left: -18px;
+    }
+
+    .imgB img:nth-child(4) {
+        margin-left: -18px;
+    }
+
+    .UbMi {
+        gap: 3em;
+    }
+
+    .sec {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .secL {
+        flex: none;
+        width: 100%;
+    }
+
+    .secR {
+        flex: none;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fL {
+        align-items: flex-start;
+    }
+
+    .fR {
+        width: 100%;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .nbV {
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .nbV a {
+        margin-left: 0;
+    }
+
+    .fR img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav a {
+        padding: 5px 6px;
+        font-size: 11px;
+    }
+
+    .nav img,
+    .nav button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .tp h6 {
+        font-size: 1.8em;
+    }
+
+    .imgB img {
+        width: 6.5em;
+        height: 9em;
+    }
+
+    .imgB img:nth-child(1) {
+        margin-right: -15px;
+    }
+
+    .imgB img:nth-child(3),
+    .imgB img:nth-child(4) {
+        margin-left: -15px;
+    }
+}
