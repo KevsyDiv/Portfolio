@@ -294,29 +294,65 @@ footer .fL h6 {
 
 
 @media (max-width: 900px) {
+
+    body {
+        padding: 24px;
+    }
+
     .container {
-        width: 70%;
+        width: 72%;
+        padding: 24px;
+        gap: 55px;
+    }
+
+    .UbmH {
+        padding-top: 3em;
+        padding-bottom: 5em;
+    }
+
+    footer {
+        margin-top: 2em;
+        padding-top: 2em;
+        gap: 50px;
     }
 }
 
+
 @media (max-width: 700px) {
+
     body {
-        padding: 15px;
+        padding: 20px;
     }
 
     .container {
         width: 100%;
-        padding: 15px;
-        gap: 45px;
+        padding: 20px;
+        gap: 55px;
+    }
+
+    .nav {
+        padding: 0 2px;
+    }
+
+    .nb {
+        gap: 4px;
+    }
+
+    .nav a {
+        padding: 8px 10px;
+        font-size: 13px;
     }
 
     .UbmH {
-        padding-top: 2em;
-        padding-bottom: 4em;
+        padding: 3em 4px 4em;
     }
 
     .tp h6 {
         font-size: 2.2em;
+    }
+
+    .UbMi {
+        padding: 0 4px;
     }
 
     .sec {
@@ -324,32 +360,29 @@ footer .fL h6 {
     }
 
     footer {
-        gap: 30px;
+        margin-top: 2em;
+        padding: 2em 4px 0;
+        gap: 60px;
     }
 }
 
+
 @media (max-width: 550px) {
+
     body {
-        padding: 10px;
+        padding: 14px;
     }
 
     .container {
         width: 100%;
-        padding: 10px;
-        gap: 40px;
+        padding: 18px;
+        gap: 50px;
     }
+
+    /* NAV */
 
     .nav {
-        gap: 5px;
-    }
-
-    .nb {
-        gap: 2px;
-    }
-
-    .nav a {
-        padding: 6px 8px;
-        font-size: 13px;
+        padding: 0;
     }
 
     .nav img,
@@ -358,62 +391,104 @@ footer .fL h6 {
         height: 38px;
     }
 
+    .nb {
+        gap: 2px;
+    }
+
+    .nav a {
+        padding: 7px 8px;
+        font-size: 12px;
+    }
+
+    /* HEADER */
+
     .UbmH {
-        padding-top: 1.5em;
-        padding-bottom: 2em;
+        padding: 2.5em 2px 3em;
     }
 
     .tp h6 {
         font-size: 2em;
+        line-height: 1.15;
     }
 
     .tp p {
         font-size: 14px;
+        line-height: 1.7;
     }
 
+    /* CONTENT */
+
     .UbMi {
-        gap: 3em;
+        padding: 0 2px;
     }
 
     .sec {
         flex-direction: column;
-        gap: 18px;
+        gap: 20px;
     }
 
     .secL {
-        flex: none;
         width: 100%;
+        padding-left: 12px;
+    }
+
+    .secL h6 {
+        font-size: 15px;
+    }
+
+    .secL p {
+        font-size: 13px;
     }
 
     .secR {
-        flex: none;
         width: 100%;
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.8;
     }
 
+    /* FOOTER */
+
     footer {
+        margin-top: 1em;
+        padding: 2.5em 2px 1em;
         flex-direction: column;
-        gap: 30px;
+        align-items: flex-start;
+        gap: 55px;
     }
 
     .fL {
+        width: 100%;
+        height: auto;
+        gap: 3px;
         align-items: flex-start;
+    }
+
+    footer .fL h6 {
+        padding-bottom: 12px;
+    }
+
+    .fL p {
+        margin-right: 0;
+        line-height: 1.6;
     }
 
     .fR {
         width: 100%;
-        align-items: flex-start;
         margin-left: 0;
+        gap: 14px;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .nbV {
-        align-items: flex-start;
         margin-left: 0;
+        align-items: flex-start;
+        gap: 7px;
     }
 
     .nbV a {
         margin-left: 0;
+        padding: 2px 0;
     }
 
     .fR img {
@@ -421,9 +496,20 @@ footer .fL h6 {
     }
 }
 
+
 @media (max-width: 380px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 16px;
+        gap: 45px;
+    }
+
     .nav a {
-        padding: 5px 6px;
+        padding: 6px;
         font-size: 11px;
     }
 
@@ -435,5 +521,13 @@ footer .fL h6 {
 
     .tp h6 {
         font-size: 1.8em;
+    }
+
+    .secR {
+        font-size: 13px;
+    }
+
+    footer {
+        gap: 45px;
     }
 }
