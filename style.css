@@ -296,77 +296,120 @@ footer .fL h6 {
     border-radius: 12px;
 }
 
-
 @media (max-width: 900px) {
-    .container {
-        width: 70%;
+
+    body {
+        padding: 24px;
     }
 
-    .imgB img {
-        width: 11em;
-        height: 15em;
+    .container {
+        width: 72%;
+        padding: 24px;
+        gap: 55px;
+    }
+
+    .UbmH {
+        padding-top: 3em;
+    }
+
+    .imgB {
+        padding: 3em 0 4em;
+    }
+
+    footer {
+        margin-top: 2em;
+        padding-top: 2em;
+        gap: 50px;
     }
 }
 
+
 @media (max-width: 700px) {
+
     body {
-        padding: 15px;
+        padding: 20px;
     }
 
     .container {
         width: 100%;
-        padding: 15px;
-        gap: 45px;
+        padding: 20px;
+        gap: 55px;
     }
 
+    /* NAV */
+
+    .nav {
+        padding: 0 2px;
+    }
+
+    .nb {
+        gap: 4px;
+    }
+
+    .nav a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    /* HEADER */
+
     .UbmH {
-        padding-top: 2em;
+        padding: 3em 4px 1em;
     }
 
     .tp h6 {
         font-size: 2.2em;
     }
 
-    .imgB {
-        padding: 2em 0;
+    .tp p {
+        line-height: 1.6;
     }
 
-    .imgB img {
-        width: 10em;
-        height: 14em;
+    /* IMAGES */
+
+    .imgB {
+        width: 100%;
+        padding: 3em 0 4em;
+    }
+
+    /* CONTENT */
+
+    .UbMi {
+        gap: 5em;
+        padding: 0 4px;
     }
 
     .sec {
         gap: 20px;
     }
 
+    /* FOOTER */
+
     footer {
-        gap: 30px;
+        margin-top: 2em;
+        padding: 2em 4px 0;
+        gap: 60px;
     }
 }
 
+
 @media (max-width: 550px) {
+
     body {
-        padding: 10px;
+        padding: 14px;
     }
 
     .container {
         width: 100%;
-        padding: 10px;
-        gap: 40px;
+        padding: 18px;
+        gap: 50px;
     }
+
+    /* NAV */
 
     .nav {
-        gap: 5px;
-    }
-
-    .nb {
-        gap: 2px;
-    }
-
-    .nav a {
-        padding: 6px 8px;
-        font-size: 13px;
+        width: 100%;
+        padding: 0;
     }
 
     .nav img,
@@ -375,21 +418,36 @@ footer .fL h6 {
         height: 38px;
     }
 
+    .nb {
+        gap: 2px;
+    }
+
+    .nav a {
+        padding: 7px 8px;
+        font-size: 12px;
+    }
+
+    /* HEADER */
+
     .UbmH {
-        padding-top: 1.5em;
+        padding: 2.5em 2px 1em;
     }
 
     .tp h6 {
         font-size: 2em;
+        line-height: 1.15;
     }
 
     .tp p {
         font-size: 14px;
+        line-height: 1.7;
     }
 
+    /* IMAGE COLLAGE */
+
     .imgB {
-        min-height: 230px;
-        padding: 1.5em 0;
+        min-height: 240px;
+        padding: 2.5em 0 3.5em;
     }
 
     .imgB img {
@@ -401,57 +459,85 @@ footer .fL h6 {
         margin-right: -18px;
     }
 
-    .imgB img:nth-child(3) {
-        margin-left: -18px;
-    }
-
+    .imgB img:nth-child(3),
     .imgB img:nth-child(4) {
         margin-left: -18px;
     }
 
+    /* CONTENT */
+
     .UbMi {
-        gap: 3em;
+        gap: 4.5em;
+        padding: 0 2px;
     }
 
     .sec {
         flex-direction: column;
-        gap: 18px;
+        gap: 20px;
     }
 
     .secL {
-        flex: none;
         width: 100%;
+        padding-left: 12px;
+    }
+
+    .secL h6 {
+        font-size: 15px;
+    }
+
+    .secL p {
+        font-size: 13px;
     }
 
     .secR {
-        flex: none;
         width: 100%;
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.8;
     }
 
+    /* FOOTER */
+
     footer {
+        margin-top: 1em;
+        padding: 2.5em 2px 1em;
         flex-direction: column;
-        gap: 30px;
+        align-items: flex-start;
+        gap: 55px;
     }
 
     .fL {
+        width: 100%;
+        height: auto;
+        gap: 3px;
         align-items: flex-start;
+    }
+
+    footer .fL h6 {
+        padding-bottom: 12px;
+    }
+
+    .fL p {
+        margin-right: 0;
+        line-height: 1.6;
     }
 
     .fR {
         width: 100%;
-        align-items: flex-start;
         margin-left: 0;
+        gap: 14px;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .nbV {
-        align-items: flex-start;
         margin-left: 0;
+        align-items: flex-start;
+        gap: 7px;
     }
 
     .nbV a {
         margin-left: 0;
+        padding: 2px 0;
     }
 
     .fR img {
@@ -459,9 +545,20 @@ footer .fL h6 {
     }
 }
 
+
 @media (max-width: 380px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 16px;
+        gap: 45px;
+    }
+
     .nav a {
-        padding: 5px 6px;
+        padding: 6px;
         font-size: 11px;
     }
 
@@ -473,6 +570,10 @@ footer .fL h6 {
 
     .tp h6 {
         font-size: 1.8em;
+    }
+
+    .imgB {
+        min-height: 215px;
     }
 
     .imgB img {
@@ -487,5 +588,13 @@ footer .fL h6 {
     .imgB img:nth-child(3),
     .imgB img:nth-child(4) {
         margin-left: -15px;
+    }
+
+    .secR {
+        font-size: 13px;
+    }
+
+    footer {
+        gap: 45px;
     }
 }
